@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Cofig;
+use App\Models\Comment;
 use App\Models\Option;
 use App\Models\Option_Teacher;
 use App\Models\Prolife;
@@ -39,13 +40,23 @@ class DatabaseSeeder extends Seeder
 //            'phone'=>'0904800241',
 //            'password'=>Hash::make('giaovien01'),
 //        ];
-//        $user=[
-//            'name'=>'User 01',
-//            'role'=>2,
-//            'email'=>'user01@gmail.com',
-//            'phone'=>'0904800242',
-//            'password'=>Hash::make('user01'),
-//        ];
+        $user=[
+            'id'=>999999,
+            'name'=>'main',
+            'role'=>0,
+            'email'=>'main@gmail.com',
+            'phone'=>'00000000',
+            'password'=>Hash::make('user01'),
+        ];
+        for($i=1;$i<=4;$i++){
+            $comment = [
+                'user_id'=>random_int(1,6),
+                'teacher_id'=>999999,
+                'content'=>'Xin chào , đây là nhận xét mẫu, có thể thay đổi !',
+                'rate'=>5
+            ];
+            Comment::create($comment);
+        }
 ////        for ($i=2;$i<=7;$i++){
 ////            $option=[
 ////                'id'=>9990+$i,
