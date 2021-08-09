@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
             ProlifeSeeder::class,
             OptionSeeder::class,
+            PageSeeder::class,
         ]);
 //        $cofig = [
 //            'description'=> 'nulls',

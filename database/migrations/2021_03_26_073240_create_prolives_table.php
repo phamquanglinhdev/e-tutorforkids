@@ -19,8 +19,8 @@ class CreateProlivesTable extends Migration
             $table->integer('price')->nullable();
             $table->longText('description')->nullable();
             $table->longText('level')->nullable();
-            $table->longText('celendar')->default('');
-            $table->longText('salary')->default('');
+            $table->longText('celendar')->nullable();
+            $table->longText('salary')->nullable();
             $table->longText('video')->nullable();
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users');
