@@ -29,8 +29,8 @@ class CommentCrudController extends CrudController
         CRUD::setModel(\App\Models\Comment::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/comment');
         CRUD::setEntityNameStrings('Đánh giá', 'Những đánh giá');
-        $this->crud->denyAccess('create');
-        $this->crud->denyAccess('update');
+//        $this->crud->denyAccess('create');
+//        $this->crud->denyAccess('update');
     }
 
     /**

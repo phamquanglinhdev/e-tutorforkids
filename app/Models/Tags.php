@@ -31,7 +31,7 @@ class Tags extends Model
     */
     public function viewOnWeb($crud = false)
     {
-        return '<a class="btn btn-sm btn-link" target="_blank" href="https://bizenglish.vn/tag/' . urlencode($this->slug) . '" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
+        return '<a class="btn btn-sm btn-link" target="_blank" href="'.env("APP_URL").'/tag/' . urlencode($this->slug) . '" data-toggle="tooltip" title="Just a demo custom button."><i class="la la-eye"></i> Xem trên web</a>';
     }
     public function setSlugAttribute()
     {

@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Tags;
 use Illuminate\Http\Request;
+use phpDocumentor\Reflection\DocBlock\Tag;
 
 class TagFrontendController extends Controller
 {
     public function index($slug){
-        return view('frontend.list',['slug'=>$slug,'type'=>'tag']);
+        $tag = Tags::where("slug",'=',$slug)->first();
+        return view('frontend.tag',['tag'=>$tag]);
     }
 }

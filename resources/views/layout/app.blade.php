@@ -20,7 +20,7 @@
     <script type="text/javascript" src="{{asset('asset/js/sweet.alert.js')}}"></script>
 </head>
 <body>
-<div class="container-fluid">
+<div class="wrapper">
     <header class="bg-origin">
         <div class="bg-origin text-white font-weight-bold py-2">
             <div class="container-fluid px-5 text-center">
@@ -70,29 +70,35 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="{{route('index')}}">Trang chủ</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  text-white dropdown-toggle" href="http://example.com"
-                           id="navbarDropdownMenuLink"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Khóa học
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="{{route('tag','hoc-giao-tiep-online-1-1.html')}}">Học
-                                    Giao Tiếp Online 1-1</a></li>
-                            <li><a class="dropdown-item" href="{{route('tag','hoc-viet-online-1-1.html')}}">Học Viết
-                                    Online 1-1</a></li>
-                            <li><a class="dropdown-item" href="{{route('tag','khoa-hoc-theo-yeu-cau.html')}}">Khóa Học
-                                    Theo Yêu Cầu</a></li>
-                            <li><a class="dropdown-item" href="{{route('tag','cac-khoa-hoc-video.html')}}">Các Khóa Học
-                                    Video</a></li>
-
-                        </ul>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{route('index')}}">Về chúng tôi</a>
                     </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{route('filter')}}">Tìm giáo viên</a>
+                    </li>
+{{--                    <li class="nav-item dropdown">--}}
+{{--                        <a class="nav-link  text-white dropdown-toggle" href="http://example.com"--}}
+{{--                           id="navbarDropdownMenuLink"--}}
+{{--                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
+{{--                            Khóa học--}}
+{{--                        </a>--}}
+{{--                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">--}}
+{{--                            <li><a class="dropdown-item" href="{{route('tag','hoc-giao-tiep-online-1-1.html')}}">Học--}}
+{{--                                    Giao Tiếp Online 1-1</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="{{route('tag','hoc-viet-online-1-1.html')}}">Học Viết--}}
+{{--                                    Online 1-1</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="{{route('tag','khoa-hoc-theo-yeu-cau.html')}}">Khóa Học--}}
+{{--                                    Theo Yêu Cầu</a></li>--}}
+{{--                            <li><a class="dropdown-item" href="{{route('tag','cac-khoa-hoc-video.html')}}">Các Khóa Học--}}
+{{--                                    Video</a></li>--}}
+
+{{--                        </ul>--}}
+{{--                    </li>--}}
                     <li class="nav-item dropdown">
                         <a class="nav-link text-white dropdown-toggle" href="http://example.com"
                            id="navbarDropdownMenuLink"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Chia sẻ kinh nghiệm
+                            Góc chia sẻ
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="{{route('posts',['slug'=>'hoc-noi'])}}">Học nói</a></li>
@@ -105,7 +111,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{route('index')}}#study-register">Đăng ký học thử</a>
+                        <a class="nav-link text-white" href="{{route('index')}}#study-register">Tư vấn học thử</a>
                     </li>
                 </ul>
                 <div class="text-white">

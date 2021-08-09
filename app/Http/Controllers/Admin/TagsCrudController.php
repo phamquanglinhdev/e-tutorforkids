@@ -41,7 +41,7 @@ class TagsCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::setFromDb(); // columns
+        CRUD::addColumn(['name' => 'name', 'label' => 'Tên nhãn']);
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
@@ -60,7 +60,9 @@ class TagsCrudController extends CrudController
     {
         CRUD::setValidation(TagsRequest::class);
 
-        CRUD::setFromDb(); // fields
+        CRUD::addField(['name' => 'name', 'label' => 'Tên nhãn']);
+        CRUD::addField(['name' => 'slug', 'type' => 'hidden']);
+        CRUD::addField(['name' => 'content', 'label' => 'Nội dung ( Bài viết)','type'=>'ckeditor']);
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:
