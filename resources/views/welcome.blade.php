@@ -35,29 +35,22 @@
 @endsection
 @section('content')
     <link href="{{asset('asset/css/index.css')}}" rel="stylesheet">
-    <style>
-        .contact {
-            background-image: url("{{asset('uploads/contact-background.png')}}");
-            background-attachment: fixed;
-            background-size: contain;
-        }
-    </style>
     <div class="container">
         <div class="row">
-            <div class="col-12 pt-5 h2 text-center"><span class="text-origin text-uppercase">Biz </span>English</div>
-            <div class="col-12 p-2 h4 text-center">Chuyên đào tạo tiếng Anh trực tuyến cho người đi làm</div>
-            <div class="col-md-4 col-12 text-center">
-                <div class="p-3">
+            <div class="col-12 pt-5 h2 text-center"><span class="text-origin text-uppercase">Biz </span>English <span class="text-pink">For Kid</span></div>
+            <div class="col-12 p-2 h4 text-center">Chuyên đào tạo tiếng Anh trực tuyến cho bé</div>
+            <div class="col-md-4 col-12 text-center  text-white  mb-lg-5">
+                <div class="p-3 bg-pink-deep rounded">
                     <img src="https://bizenglish.vn/uploads/intro-1.jpg" class="pb-2 w-100">
                     <p><b>HỌC ONLINE TẠI NHÀ</b></p>
-                    <p>ạn không cần mất thời gian đưa bé tới trung
+                    <p>Bạn không cần mất thời gian đưa bé tới trung
                         tâm học. Bé có thể ngồi tại nhà để học và
                         giỏi tiếng Anh chỉ với chiếc điện thoại, máy
-                        tính hoặc ipad kết nối Interne</p>
+                        tính hoặc ipad kết nối Internet.</p>
                 </div>
             </div>
-            <div class="col-md-4 col-12 text-center">
-                <div class="p-3">
+            <div class="col-md-4 col-12 text-center  text-white  mb-lg-5">
+                <div class="p-3 bg-pink-deep rounded">
                     <img src="https://bizenglish.vn/uploads/intro-2.jpg" class="pb-2 w-100">
                     <p><b>LỘ TRÌNH CÁ NHÂN HÓA</b></p>
                     <p>Học 1 kèm 1 nên giáo viên hiểu rõ trình độ
@@ -66,8 +59,8 @@
                         nhiều lần so với học tại trung tâm.</p>
                 </div>
             </div>
-            <div class="col-md-4 col-12 text-center">
-                <div class="p-3">
+            <div class="col-md-4 col-12 text-center text-white  mb-lg-5">
+                <div class="p-3 bg-pink-deep rounded">
                     <img src="https://bizenglish.vn/uploads/intro-3.jpg" class="pb-2 w-100">
                     <p><b>CHI PHÍ THẤP</b></p>
                     <p>Học 1 kèm 1 nhưng học phí mỗi buổi thấp
@@ -78,13 +71,13 @@
             </div>
         </div>
     </div>
-    <div class="bg-dark text-white">
+    <div class="bg-dark pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 p-2 py-5 h2 text-center">BÉ CÓ THỂ HỌC GÌ ?</div>
                 <div class="col-md-3 col-sm-6 col-12 tran-shadow d-flex flex-column justify-content-between">
                     <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
-                       class="link-style-none text-white">
+                       class="link-style-none ">
                         <div class="p-3">
                             <div>
                                 <img src="{{asset('uploads/learning-1.png')}}" class="pb-2 w-100">
@@ -101,7 +94,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 tran-shadow d-flex flex-column justify-content-between">
                     <a href="{{route('tag',['slug'=>'hoc-viet-online-1-1.html'])}}"
-                       class="link-style-none text-white">
+                       class="link-style-none ">
                         <div class="p-3">
                             <div>
                                 <img src="{{asset('uploads/learning-2.png')}}" class="pb-2 w-100">
@@ -118,7 +111,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 tran-shadow  d-flex flex-column justify-content-between">
                     <a href="{{route('tag',['slug'=>'khoa-hoc-theo-yeu-cau.html'])}}"
-                       class="link-style-none text-white">
+                       class="link-style-none ">
                         <div class="p-3">
                             <div>
                                 <img src="{{asset('uploads/learning-3.png')}}" class="pb-2 w-100">
@@ -136,7 +129,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 tran-shadow  d-flex flex-column justify-content-between">
                     <a href="{{route('tag',['slug'=>'cac-khoa-hoc-video.html'])}}"
-                       class="link-style-none text-white">
+                       class="link-style-none ">
                         <div class="p-3">
                             <div>
                                 <img src="{{asset('uploads/learning-4.png')}}" class="pb-2 w-100">
@@ -152,6 +145,13 @@
                         tiết</a>
                 </div>
             </div>
+        </div>
+    </div>
+    @php
+        $comments = \App\Models\Comment::where('teacher_id','=','999999')->orderBy('updated_at','DESC')->limit(4)->get();
+    @endphp
+    <div class="container-fluid bg-pink">
+        <div class="container">
             <div class="row pt-5">
                 <div class="col-12 pt-5 text-uppercase h2 text-center">GIÁO VIÊN CỦA CHÚNG TÔI</div>
                 <div class="col-md-6 col-12 text-center d-flex justify-content-between flex-column mb-5 ">
@@ -186,13 +186,18 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="bg-pink-deep text-white">
+        <div class="container">
             <div class="row">
                 <div class="col-12 pt-5 text-uppercase h2 text-center">Tìm kiếm giáo viên</div>
-                <div class="col-12 pt-5 text-uppercase text-center">Bạn có thể tìm kiếm giáo viên phù hợp nhất với bạn
+                <div class="col-12 pt-5 text-uppercase text-center">Bạn có thể tìm kiếm giáo viên phù hợp nhất với
+                    bạn
                     về khóa học, mức chi phí và thời gian học.
                 </div>
                 <div class="p-5 d-flex w-100 align-items-center justify-content-center">
-                    <button class="btn btn-origin "><a class="link-style-none text-white"
+                    <button class="btn btn-pink "><a class="link-style-none text-pink"
                                                        href="{{route('filter')}}"><i
                                 class="fas fa-search"></i> Tìm kiếm ngay</a>
                     </button>
@@ -200,11 +205,8 @@
             </div>
         </div>
     </div>
-    @php
-        $comments = \App\Models\Comment::where('teacher_id','=','999999')->orderBy('updated_at','DESC')->limit(4)->get();
-    @endphp
-    <div class="container-fluid bg-dark border border-white border-left-0 border-right-0">
-        <div class="text-center text-uppercase p-5 h2 text-white">CẢM NHẬN CỦA HỌC VIÊN</div>
+    <div class="container-fluid bg-dark">
+        <div class="text-center text-uppercase p-5 h2 ">CẢM NHẬN CỦA HỌC VIÊN</div>
         <div class="container pb-5 bg-dark">
             <div id="comment" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
@@ -217,8 +219,8 @@
                     @if(isset($comments))
                         @foreach($comments as $index => $comment)
                             <div class="carousel-item @if($index==0) active @endif">
-                                <div class="d-block w-75 m-auto bg-origin text-white p-3 rounded">
-                                    <div class="row align-items-center">
+                                <div class="d-block w-75 m-auto bg-pink-deep text-white  p-3 rounded">
+                                    <div class="row align-items-center ">
                                         <div class="avatar col-md-3 m-0 ">
                                             <img
                                                 src="https://i.pinimg.com/originals/fa/02/02/fa0202572e8aa734cedb154c413a4846.jpg"
@@ -239,10 +241,10 @@
     </div>
     <div class="container-fluid bg-dark">
         @if(backpack_auth()->check())
-            <div class="bg-origin p-1 rounded   ">
+            <div class="bg-origin p-1 rounded">
                 <div class="container p-5">
-                    <div class="h3 text-white mb-2">Đánh giá của bạn</div>
-                    <form class="rating bg-dark text-white rounded p-5" action="{{route('save.comment',['id'=>'999999'])}}"
+                    <div class="h3  mb-2">Đánh giá của bạn</div>
+                    <form class="rating bg-dark  rounded p-5" action="{{route('save.comment',['id'=>'999999'])}}"
                           method="post">
                         @csrf
                         <input type="hidden" value="999999" name="teacher_id">
@@ -268,10 +270,10 @@
                 </div>
             </div>
         @else
-            <div class="text-center text-origin">*Bạn cần đăng nhập để đánh giá</div>
+            <div class="text-center text-origin pb-5">*Bạn cần đăng nhập để đánh giá</div>
         @endif
     </div>
-    <div class="container-fluid bg-dark text-white">
+    <div class="container-fluid bg-pink-deep text-white">
         <div class="container py-5">
             <div class="row m-0">
                 <div class="col-md-4 text-center">
@@ -291,7 +293,7 @@
     </div>
     <div class="container">
         <div class="p-lg-5 w-100">
-            <a class="link-style-none text-white"
+            <a class="link-style-none "
                href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
                 <button class="w-100 py-5 zoom-loop m-auto text-center text-uppercase btn btn-origin">Đăng ký tư vấn và
                     học thử miễn phí
@@ -300,7 +302,7 @@
         </div>
         {{--        <div class="row m-0 align-items-center contact">--}}
         {{--            <div class="col-md-6 col-12 p-5">--}}
-        {{--                <div class="bg-secondary opacity h2 text-white p-5 text-center">HÃY CHIA SẺ NHU CẦU HỌC TẬP CỦA BẠN--}}
+        {{--                <div class="bg-secondary opacity h2  p-5 text-center">HÃY CHIA SẺ NHU CẦU HỌC TẬP CỦA BẠN--}}
         {{--                </div>--}}
         {{--            </div>--}}
         {{--            <div class="col-md-6 col-12 p-5 bg-light" id="study-register">--}}

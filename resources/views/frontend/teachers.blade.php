@@ -1,4 +1,4 @@
-@extends('layout.app')
+  @extends('layout.app')
 @section('content')
     <link rel="stylesheet" href="{{asset('asset/nicelabel/css/jquery-nicelabel.css')}}">
     <script src="{{asset('asset/nicelabel/js/jquery.nicelabel.js')}}"></script>
@@ -96,59 +96,61 @@
             </div>
         </div>
     </div>
-    <div class="container" style="margin-bottom: 100px">
-        @foreach($data as $key => $teacher)
-            <div class="border p-3 shadow my-2">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6-col-12">
-                        <img class="img-fluid" alt="noe"
-                             src="{{ $data[$key]['avatar'] != null ? $data[$key]['avatar'] : 'https://cloudcone.com/wp-content/uploads/2019/03/blank-avatar.jpg'}}">
-                        <div class="my-2 rounded text-white py-2 text-center bg-origin">{{($data[$key]['price'])/1000}}.000 đ /
-                            Giờ Học
+    <div class="bg-white">
+        <div class="container" style="margin-bottom: 100px">
+            @foreach($data as $key => $teacher)
+                <div class="border p-3 shadow my-2">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6-col-12">
+                            <img class="img-fluid" alt="noe"
+                                 src="{{ $data[$key]['avatar'] != null ? $data[$key]['avatar'] : 'https://cloudcone.com/wp-content/uploads/2019/03/blank-avatar.jpg'}}">
+                            <div class="my-2 rounded text-white py-2 text-center bg-origin">{{($data[$key]['price'])/1000}}.000 đ /
+                                Giờ Học
+                            </div>
                         </div>
-                    </div>
-                    <div class="text-dark p-2 col-md-9 col-sm-6 col-12">
-                        <div class="row">
-                            <div class="col-md-6 col-12">
-                                <b class="h4">{{$data[$key]['name']}}</b>
-                                <span class="text-white float-right">
+                        <div class="text-dark p-2 col-md-9 col-sm-6 col-12">
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <b class="h4">{{$data[$key]['name']}}</b>
+                                    <span class="text-white float-right">
                                     <button class="btn btn-origin text-white"><a
                                             href="{{route('teacher',$data[$key]['id'])}}"
                                             class="link-style-none text-white">Xem chi tiết</a></button>
                                 </span>
-                                <div class="w-100 pt-4 clearfix">
-                                    {!! $data[$key]['level']!!}
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-12">
-                                <nav class="pb-4 d-flex justify-content-center">
-                                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-{{--                                        <a class="nav-item nav-link  text-dark" id="nav-profile-tab" data-toggle="tab"--}}
-{{--                                           href="#nav-profile-{{$key}}" role="tab"--}}
-{{--                                           aria-controls="nav-profile-{{$key}}"--}}
-{{--                                           aria-selected="false">Lịch có thể dạy</a>--}}
-                                        <a class="nav-item nav-link  text-dark" id="nav-contact-tab" data-toggle="tab"
-                                           href="#nav-contact-{{$key}}" role="tab"
-                                           aria-controls="nav-contact-{{$key}}"
-                                           aria-selected="false">Video dạy mẫu</a>
+                                    <div class="w-100 pt-4 clearfix">
+                                        {!! $data[$key]['level']!!}
                                     </div>
-                                </nav>
-                                <div class="tab-content " id="nav-tabContent">
-{{--                                    <div class="tab-pane fade active show" id="nav-profile-{{$key}}" role="tabpanel"--}}
-{{--                                         aria-labelledby="nav-profile-tab">--}}
-{{--                                        {!!$data[$key]['table']!!}--}}
-{{--                                    </div>--}}
-                                    <div class="tab-pane fade active show" id="nav-contact-{{$key}}" role="tabpanel"
-                                         aria-labelledby="nav-contact-tab">
-                                        {!! $data[$key]['video'] !!}
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <nav class="pb-4 d-flex justify-content-center">
+                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            {{--                                        <a class="nav-item nav-link  text-dark" id="nav-profile-tab" data-toggle="tab"--}}
+                                            {{--                                           href="#nav-profile-{{$key}}" role="tab"--}}
+                                            {{--                                           aria-controls="nav-profile-{{$key}}"--}}
+                                            {{--                                           aria-selected="false">Lịch có thể dạy</a>--}}
+                                            <a class="nav-item nav-link  text-dark" id="nav-contact-tab" data-toggle="tab"
+                                               href="#nav-contact-{{$key}}" role="tab"
+                                               aria-controls="nav-contact-{{$key}}"
+                                               aria-selected="false">Video dạy mẫu</a>
+                                        </div>
+                                    </nav>
+                                    <div class="tab-content " id="nav-tabContent">
+                                        {{--                                    <div class="tab-pane fade active show" id="nav-profile-{{$key}}" role="tabpanel"--}}
+                                        {{--                                         aria-labelledby="nav-profile-tab">--}}
+                                        {{--                                        {!!$data[$key]['table']!!}--}}
+                                        {{--                                    </div>--}}
+                                        <div class="tab-pane fade active show" id="nav-contact-{{$key}}" role="tabpanel"
+                                             aria-labelledby="nav-contact-tab">
+                                            {!! $data[$key]['video'] !!}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        @endforeach
+            @endforeach
+        </div>
     </div>
     <style>
         td, th {

@@ -20,7 +20,7 @@
     <script type="text/javascript" src="{{asset('asset/js/sweet.alert.js')}}"></script>
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper bg-pink">
     <header class="bg-origin">
         <div class="bg-origin text-white font-weight-bold py-2">
             <div class="container-fluid px-5 text-center">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="py-2 bg-white">
+        <div class="py-2 bg-pink">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center">
                     <div class=" col-md-4 p-1 mt-2 text-center text-lg-left">

@@ -1,14 +1,30 @@
 .text-origin{
-    color: #00B0F0!important;
+    color: #25b1d8!important;
+}
+.text-pink{
+    color: #fe72ae !important;
 }
 .bg-origin{
-    background: #00B0F0!important;
+    background: #25b1d8!important;
 }
 .btn-origin{
-    background: #00B0F0!important;
+    background: #25b1d8!important;
     color: white!important;
 }
-
+.bg-pink{
+    background: #feeff3!important;
+}
+.bg-pink-deep{
+    background: #fd9bc5 !important
+}
+.bg-dark{
+    background: #d8efff!important;
+    color:black!important;
+}
+.btn-pink{
+    background: #feeff3!important;
+    color: #fe72ae !important;
+}
 .site-footer
 {
     background-color:#26272b;

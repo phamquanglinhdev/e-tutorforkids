@@ -101,11 +101,11 @@
 .carousel-indicators li {
     display: block;
     margin-bottom: 5px;
-    border: 10px solid #00B0F0;
+    border: 10px solid #fe72ae;
     border-radius: 10px;
 }
 
 .carousel-indicators li.active {
-    border: 10px solid #6295a5;
+    border: 10px solid pink;
 
 }
