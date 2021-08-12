@@ -1,14 +1,14 @@
 .text-origin{
-    color: #25b1d8!important;
+    color: #ff316b!important;
 }
-.text-pink{
-    color: #fe72ae !important;
+.shadow{
+    box-shadow: 0 0 20px 2px #00000061;
 }
 .bg-origin{
-    background: #25b1d8!important;
+    background: #ff316b!important;
 }
 .btn-origin{
-    background: #25b1d8!important;
+    background: #ff316b!important;
     color: white!important;
 }
 .bg-pink{
@@ -215,4 +215,12 @@
 }
 .modal{
     top: 20%;
+}
+.text-nicelabel:checked + label
+{
+    background-color: #e91e63;
+    color: #fff;
+    width: 100%;
+    font-size: 1em;
+    font-family: arial;
 }

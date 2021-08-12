@@ -20,7 +20,7 @@
     <script type="text/javascript" src="{{asset('asset/js/sweet.alert.js')}}"></script>
 </head>
 <body>
-<div class="wrapper bg-pink">
+<div class="wrapper ">
     <header class="bg-origin">
         <div class="bg-origin text-white font-weight-bold py-2">
             <div class="container-fluid px-5 text-center">
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="py-2 bg-pink">
+        <div class="py-2 bg-white">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center">
                     <div class=" col-md-4 p-1 mt-2 text-center text-lg-left">
@@ -47,7 +47,7 @@
                         <div class="input-group">
                             <input class="form-control" id="search" placeholder="Tìm khóa học ..."/>
                             <div class="input-group-append">
-                                <button class="btn btn-origin" type="submit"><i class="fa fa-search"></i></button>
+                                <button class="btn btn-origin rounded-0" type="submit"><i class="fa fa-search"></i></button>
                             </div>
                         </div>
                     </div>

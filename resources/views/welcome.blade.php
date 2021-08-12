@@ -37,33 +37,34 @@
     <link href="{{asset('asset/css/index.css')}}" rel="stylesheet">
     <div class="container">
         <div class="row">
-            <div class="col-12 pt-5 h2 text-center"><span class="text-origin text-uppercase">Biz </span>English <span class="text-pink">For Kid</span></div>
-            <div class="col-12 p-2 h4 text-center">Chuyên đào tạo tiếng Anh trực tuyến cho bé</div>
+            <div class="col-12 pt-5 h2 text-center"><span class="text-origin text-uppercase">Biz </span>English <span
+                    class="text-pink">For Kid</span></div>
+            <div class="col-12 p-2 h4 text-center pb-5">Chuyên đào tạo tiếng Anh trực tuyến cho bé</div>
             <div class="col-md-4 col-12 text-center  text-white  mb-lg-5">
-                <div class="p-3 bg-pink-deep rounded">
+                <div class="p-3 rounded shadow">
                     <img src="https://bizenglish.vn/uploads/intro-1.jpg" class="pb-2 w-100">
-                    <p><b>HỌC ONLINE TẠI NHÀ</b></p>
-                    <p>Bạn không cần mất thời gian đưa bé tới trung
+                    <p><b class="text-origin">HỌC ONLINE TẠI NHÀ</b></p>
+                    <p class="text-secondary font-weight-bold">Bạn không cần mất thời gian đưa bé tới trung
                         tâm học. Bé có thể ngồi tại nhà để học và
                         giỏi tiếng Anh chỉ với chiếc điện thoại, máy
                         tính hoặc ipad kết nối Internet.</p>
                 </div>
             </div>
             <div class="col-md-4 col-12 text-center  text-white  mb-lg-5">
-                <div class="p-3 bg-pink-deep rounded">
+                <div class="p-3 rounded shadow">
                     <img src="https://bizenglish.vn/uploads/intro-2.jpg" class="pb-2 w-100">
-                    <p><b>LỘ TRÌNH CÁ NHÂN HÓA</b></p>
-                    <p>Học 1 kèm 1 nên giáo viên hiểu rõ trình độ
-                        bé và dạy bé theo lộ trình được cá nhân hóa
+                    <p><b class="text-origin">LỘ TRÌNH CÁ NHÂN HÓA</b></p>
+                    <p class="text-secondary font-weight-bold">Học 1 kèm 1 ,giáo viên hiểu rõ trình độ
+                        bé, dạy bé theo lộ trình được cá nhân hóa
                         phù hợp nhất với bé – đảm bảo hiệu quả gấp
                         nhiều lần so với học tại trung tâm.</p>
                 </div>
             </div>
             <div class="col-md-4 col-12 text-center text-white  mb-lg-5">
-                <div class="p-3 bg-pink-deep rounded">
+                <div class="p-3  rounded shadow">
                     <img src="https://bizenglish.vn/uploads/intro-3.jpg" class="pb-2 w-100">
-                    <p><b>CHI PHÍ THẤP</b></p>
-                    <p>Học 1 kèm 1 nhưng học phí mỗi buổi thấp
+                    <p><b class="text-origin">CHI PHÍ THẤP</b></p>
+                    <p class="text-secondary font-weight-bold">Học 1 kèm 1 nhưng học phí mỗi buổi thấp
                         hơn so với học lớp 10 – 12 bạn tại trung tâm.
                         Đảm bảo bé có thể học tiếng Anh lâu dài mà
                         không lo lắng về vấn đề tài chính.</p>
@@ -71,78 +72,93 @@
             </div>
         </div>
     </div>
-    <div class="bg-dark pb-5">
+    <div class="p-lg-5 w-50 m-auto">
+        <a class="link-style-none "
+           href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
+            <div class="bg-origin w-75 m-auto py-1 rounded h2 text-white text-center">
+                <i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và
+                học thử miễn phí
+            </div>
+        </a>
+    </div>
+    <div class="pb-5 text-white bg-origin">
         <div class="container">
             <div class="row">
-                <div class="col-12 p-2 py-5 h2 text-center">BÉ CÓ THỂ HỌC GÌ ?</div>
-                <div class="col-md-3 col-sm-6 col-12 tran-shadow d-flex flex-column justify-content-between">
-                    <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
-                       class="link-style-none ">
-                        <div class="p-3">
-                            <div>
-                                <img src="{{asset('uploads/learning-1.png')}}" class="pb-2 w-100">
+                <div class="col-12 p-2 py-5 h2 text-center ">BÉ CÓ THỂ HỌC GÌ ?</div>
+                <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
+                    <div class=" tran-shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="link-style-none ">
+                            <div class="p-3">
+                                <div>
+                                    <img src="{{asset('uploads/learning-1.png')}}" class="pb-2 w-100">
+                                </div>
+                                <div class=" text-origin"><b>HỌC GIAO TIẾP
+                                        ONLINE 1-1</b></div>
+                                <p>Học giao tiếp Online 1 -
+                                    1 với giáo viên Việt Nam
+                                    – gv nước ngoài.</p>
                             </div>
-                            <div class=" text-origin"><b>HỌC GIAO TIẾP
-                                    ONLINE 1-1</b></div>
-                            <p>Học giao tiếp Online 1 -
-                                1 với giáo viên Việt Nam
-                                – gv nước ngoài.</p>
-                        </div>
-                    </a>
-                    <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}" class="btn btn-origin show">Xem
-                        chi tiết</a>
+                        </a>
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="btn btn-origin show">Xem
+                            chi tiết</a>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-12 tran-shadow d-flex flex-column justify-content-between">
-                    <a href="{{route('tag',['slug'=>'hoc-viet-online-1-1.html'])}}"
-                       class="link-style-none ">
-                        <div class="p-3">
-                            <div>
-                                <img src="{{asset('uploads/learning-2.png')}}" class="pb-2 w-100">
+                <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
+                    <div class=" tran-shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="link-style-none ">
+                            <div class="p-3">
+                                <div>
+                                    <img src="{{asset('uploads/learning-2.png')}}" class="pb-2 w-100">
+                                </div>
+                                <div class=" text-origin"><b>LUYỆN THI CHỨNG CHỈ QUỐC TẾ</b></div>
+                                <p>Luyện thi chứng chỉ IELTS,
+                                    Starter, Mover, Flyer.</p>
                             </div>
-                            <div class=" text-origin"><b>
-                                    LUYỆN THI CHỨNG CHỈ QUỐC TẾ
-                                </b></div>
-                            <p>Luyện thi chứng chỉ IELTS,
-                                Starter, Mover, Flyer.</p>
-                        </div>
-                    </a>
-                    <a href="{{route('tag',['slug'=>'hoc-viet-online-1-1.html'])}}" class="btn btn-origin show">Xem chi
-                        tiết</a>
+                        </a>
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="btn btn-origin show">Xem
+                            chi tiết</a>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-12 tran-shadow  d-flex flex-column justify-content-between">
-                    <a href="{{route('tag',['slug'=>'khoa-hoc-theo-yeu-cau.html'])}}"
-                       class="link-style-none ">
-                        <div class="p-3">
-                            <div>
-                                <img src="{{asset('uploads/learning-3.png')}}" class="pb-2 w-100">
+                <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
+                    <div class=" tran-shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="link-style-none ">
+                            <div class="p-3">
+                                <div>
+                                    <img src="{{asset('uploads/learning-3.png')}}" class="pb-2 w-100">
+                                </div>
+                                <div class=" text-origin"><b>HỌC THEO SÁCH GIÁO
+                                        KHOA TRÊN LỚP</b></div>
+                                <p>Học theo chương trình sách
+                                    giáo khoa của bộ giáo dục.</p>
                             </div>
-                            <div class=" text-origin">
-                                <b>HỌC THEO SÁCH GIÁO
-                                    KHOA TRÊN LỚP
-                                </b></div>
-                            <p>Học theo chương trình sách
-                                giáo khoa của bộ giáo dục.</p>
-                        </div>
-                    </a>
-                    <a href="{{route('tag',['slug'=>'khoa-hoc-theo-yeu-cau.html'])}}" class="btn btn-origin show">Xem
-                        chi tiết</a>
+                        </a>
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="btn btn-origin show">Xem
+                            chi tiết</a>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-12 tran-shadow  d-flex flex-column justify-content-between">
-                    <a href="{{route('tag',['slug'=>'cac-khoa-hoc-video.html'])}}"
-                       class="link-style-none ">
-                        <div class="p-3">
-                            <div>
-                                <img src="{{asset('uploads/learning-4.png')}}" class="pb-2 w-100">
+                <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
+                    <div class=" tran-shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="link-style-none ">
+                            <div class="p-3">
+                                <div>
+                                    <img src="{{asset('uploads/learning-4.png')}}" class="pb-2 w-100">
+                                </div>
+                                <div class=" text-origin"><b>LUYỆN THI ĐẠI HỌC</b></div>
+                                <p>Luyện thi đại học môn
+                                    tiếng Anh</p>
                             </div>
-                            <div class=" text-origin"><b>LUYỆN THI ĐẠI
-                                    HỌC</b></div>
-                            <p>Luyện thi đại học môn
-                                tiếng Anh
-                            </p>
-                        </div>
-                    </a>
-                    <a href="{{route('tag',['slug'=>'cac-khoa-hoc-video.html'])}}" class="btn btn-origin show">Xem chi
-                        tiết</a>
+                        </a>
+                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                           class="btn btn-origin show">Xem
+                            chi tiết</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,10 +166,10 @@
     @php
         $comments = \App\Models\Comment::where('teacher_id','=','999999')->orderBy('updated_at','DESC')->limit(4)->get();
     @endphp
-    <div class="container-fluid bg-pink">
+    <div class="container-fluid">
         <div class="container">
-            <div class="row pt-5">
-                <div class="col-12 pt-5 text-uppercase h2 text-center">GIÁO VIÊN CỦA CHÚNG TÔI</div>
+            <div class="row py-3">
+                <div class="col-12 pt-5 text-uppercase text-origin h2 text-center pb-2">GIÁO VIÊN CỦA CHÚNG TÔI</div>
                 <div class="col-md-6 col-12 text-center d-flex justify-content-between flex-column mb-5 ">
                     <div class="p-3 ">
                         {{--                        <img src="{{asset('uploads/teacher-vn.png')}}" class="pb-2 w-100">--}}
@@ -188,7 +204,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-pink-deep text-white">
+    <div class="bg-origin text-white">
         <div class="container">
             <div class="row">
                 <div class="col-12 pt-5 text-uppercase h2 text-center">Tìm kiếm giáo viên</div>
@@ -197,17 +213,17 @@
                     về khóa học, mức chi phí và thời gian học.
                 </div>
                 <div class="p-5 d-flex w-100 align-items-center justify-content-center">
-                    <button class="btn btn-pink "><a class="link-style-none text-pink"
-                                                       href="{{route('filter')}}"><i
+                    <button class="btn bg-white tran-shadow"><a class="link-style-none text-origin"
+                                                     href="{{route('filter')}}"><i
                                 class="fas fa-search"></i> Tìm kiếm ngay</a>
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark">
-        <div class="text-center text-uppercase p-5 h2 ">CẢM NHẬN CỦA HỌC VIÊN</div>
-        <div class="container pb-5 bg-dark">
+    <div class="container-fluid">
+        <div class="text-center text-uppercase p-5 h2 text-origin">CẢM NHẬN CỦA HỌC VIÊN</div>
+        <div class="container pb-5">
             <div id="comment" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#comment" data-slide-to="0" class="active"></li>
@@ -219,7 +235,7 @@
                     @if(isset($comments))
                         @foreach($comments as $index => $comment)
                             <div class="carousel-item @if($index==0) active @endif">
-                                <div class="d-block w-75 m-auto bg-pink-deep text-white  p-3 rounded">
+                                <div class="d-block w-75 m-auto bg-origin text-white  p-3 rounded">
                                     <div class="row align-items-center ">
                                         <div class="avatar col-md-3 m-0 ">
                                             <img
@@ -239,26 +255,26 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid">
         @if(backpack_auth()->check())
             <div class="bg-origin p-1 rounded">
                 <div class="container p-5">
-                    <div class="h3  mb-2">Đánh giá của bạn</div>
-                    <form class="rating bg-dark  rounded p-5" action="{{route('save.comment',['id'=>'999999'])}}"
+                    <div class="h3 text-white mb-2">Đánh giá của bạn</div>
+                    <form class="rating bg-white rounded p-5" action="{{route('save.comment',['id'=>'999999'])}}"
                           method="post">
                         @csrf
                         <input type="hidden" value="999999" name="teacher_id">
                         <input type="hidden" value="{{backpack_user()->id}}" name="user_id">
                         <input type="radio" id="star5" name="rate" value="5"/>
-                        <label for="star5" title="text">5 <i class="fas fa-star text-warning mr-2"></i></label>
+                        <label for="star5" title="text">5 <i class="fas fa-star text-origin mr-2"></i></label>
                         <input type="radio" id="star4" name="rate" value="4"/>
-                        <label for="star4" title="text">4 <i class="fas fa-star text-warning mr-2"></i></label>
+                        <label for="star4" title="text">4 <i class="fas fa-star text-origin mr-2"></i></label>
                         <input type="radio" id="star3" name="rate" value="3"/>
-                        <label for="star3" title="text">3 <i class="fas fa-star text-warning mr-2"></i></label>
+                        <label for="star3" title="text">3 <i class="fas fa-star text-origin mr-2"></i></label>
                         <input type="radio" id="star2" name="rate" value="2"/>
-                        <label for="star2" title="text">2 <i class="fas fa-star text-warning mr-2"></i></label>
+                        <label for="star2" title="text">2 <i class="fas fa-star text-origin mr-2"></i></label>
                         <input type="radio" id="star1" name="rate" value="1"/>
-                        <label for="star1" title="text">1 <i class="fas fa-star text-warning mr-2"></i></label>
+                        <label for="star1" title="text">1 <i class="fas fa-star text-origin mr-2"></i></label>
                         <div class="mt-2">
                             <textarea class="form-control" name="contents" placeholder="Đánh giá của bạn"
                                       required></textarea>
@@ -273,31 +289,32 @@
             <div class="text-center text-origin pb-5">*Bạn cần đăng nhập để đánh giá</div>
         @endif
     </div>
-    <div class="container-fluid bg-pink-deep text-white">
-        <div class="container py-5">
-            <div class="row m-0">
-                <div class="col-md-4 text-center">
-                    <div class="h3">Số giảng viên</div>
-                    <div class="h1">{{\App\Models\User::where('role','=',1)->count()}}+</div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="h3">Số học viên</div>
-                    <div class="h1">1250+</div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="h3">Khóa học</div>
-                    <div class="h1">{{\App\Models\Course::count()}}</div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="container-fluid bg-origin text-white">--}}
+{{--        <div class="container py-5">--}}
+{{--            <div class="row m-0">--}}
+{{--                <div class="col-md-4 text-center">--}}
+{{--                    <div class="h3">Số giảng viên</div>--}}
+{{--                    <div class="h1">{{\App\Models\User::where('role','=',1)->count()}}+</div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-4 text-center">--}}
+{{--                    <div class="h3">Số học viên</div>--}}
+{{--                    <div class="h1">1250+</div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-4 text-center">--}}
+{{--                    <div class="h3">Khóa học</div>--}}
+{{--                    <div class="h1">{{\App\Models\Course::count()}}</div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <div class="container">
         <div class="p-lg-5 w-100">
             <a class="link-style-none "
                href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
-                <button class="w-100 py-5 zoom-loop m-auto text-center text-uppercase btn btn-origin">Đăng ký tư vấn và
+                <div class="bg-origin w-75 m-auto py-1 rounded h2 text-white text-center">
+                    <i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và
                     học thử miễn phí
-                </button>
+                </div>
             </a>
         </div>
         {{--        <div class="row m-0 align-items-center contact">--}}
