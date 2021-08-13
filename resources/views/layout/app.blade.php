@@ -144,7 +144,7 @@
                             <input type="text" name="email" class="form-control" placeholder="Email của bạn"
                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button"><i
+                                <button class="btn btn-origin" type="button"><i
                                         class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
@@ -188,9 +188,9 @@
                                 Anh Online Cho Người Đi Làm</a></blockquote>
                     </div>
                     <div class="text-white mt-2"><i class="fas fa-phone"></i> Hotline</div>
-                    <div class="text-origin h5"> 0977281661</div>
+                    <div class="text-white h5"> 0977281661</div>
                     <div class="text-white mt-2"><i class="fas fa-mail-bulk"></i> Email</div>
-                    <div class="text-origin h5"> bizenglishforsuccess@gmail.com</div>
+                    <div class="text-white h5"> bizenglishforsuccess@gmail.com</div>
                 </div>
             </div>
             <hr>
