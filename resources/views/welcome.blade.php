@@ -75,15 +75,7 @@
             </div>
         </div>
     </div>
-    <div class="pb-lg-5 w-50 m-auto">
-        <a class="link-style-none "
-           href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
-            <div class="bg-origin w-75 m-auto py-3 rounded h5 text-white text-center">
-                <i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và
-                học thử miễn phí
-            </div>
-        </a>
-    </div>
+
     <div class="bg-origin" style="height: 1px ;opacity: 0.3"></div>
     <div class="pb-5">
         <div class="container">
@@ -111,7 +103,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
                     <div class=" shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
-                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                        <a href="{{route('tag',['slug'=>'luyen-thi-chung-chi-quoc-te.html'])}}"
                            class="link-style-none ">
                             <div class="p-3">
                                 <div>
@@ -122,14 +114,14 @@
                                     Starter, Mover, Flyer.</p>
                             </div>
                         </a>
-                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                        <a href="{{route('tag',['slug'=>'luyen-thi-chung-chi-quoc-te.html'])}}"
                            class="btn btn-origin show">Xem
                             chi tiết</a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
                     <div class=" shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
-                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                        <a href="{{route('tag',['slug'=>'hoc-theo-sach-giao-khoa-tren-lop.html'])}}"
                            class="link-style-none ">
                             <div class="p-3">
                                 <div>
@@ -141,25 +133,25 @@
                                     giáo khoa của bộ giáo dục.</p>
                             </div>
                         </a>
-                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                        <a href="{{route('tag',['slug'=>'hoc-theo-sach-giao-khoa-tren-lop.html'])}}"
                            class="btn btn-origin show">Xem
                             chi tiết</a>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12 p-1 d-flex">
                     <div class=" shadow d-flex flex-column justify-content-between p-1 bg-white rounded">
-                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
-                           class="link-style-none ">
+                        <a href="{{route('tag',['slug'=>'luyen-thi-dai-hoc.html'])}}"
+                           class="link-style-none">
                             <div class="p-3">
                                 <div>
-                                    <img src="{{asset('uploads/learning-4.png')}}" class="pb-2 w-100">
+                                    <img src="{{asset('uploads/learning-4.png')}}" class="pb-2 w-100" />
                                 </div>
                                 <div class=" text-origin"><b>LUYỆN THI ĐẠI HỌC</b></div>
                                 <p>Luyện thi đại học môn
                                     tiếng Anh</p>
                             </div>
                         </a>
-                        <a href="{{route('tag',['slug'=>'hoc-giao-tiep-online-1-1.html'])}}"
+                        <a href="{{route('tag',['slug'=>'luyen-thi-dai-hoc.html'])}}"
                            class="btn btn-origin show">Xem
                             chi tiết</a>
                     </div>
@@ -167,7 +159,16 @@
             </div>
         </div>
     </div>
-    <div class="bg-origin" style="height: 1px ;opacity: 0.3"></div>
+    <div class="pb-lg-5 w-50 m-auto">
+        <a class="link-style-none "
+           href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
+            <div class="bg-origin w-75 m-auto py-3 rounded h5 text-white text-center">
+                <i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và
+                học thử miễn phí
+            </div>
+        </a>
+    </div>
+
     @php
         $comments = \App\Models\Comment::where('teacher_id','=','999999')->orderBy('updated_at','DESC')->limit(4)->get();
     @endphp
