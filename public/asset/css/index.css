@@ -4,7 +4,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.custom-back-ground-01{
+    background-size: contain;
+    background: url("https://www.xmple.com/wallpaper/blue-white-gradient-linear-1920x1080-c2-fffaf0-87ceeb-a-30-f-14.svg");
+    background-attachment:fixed ;
+}
 
+.custom-back-ground-02{
+    background-size: contain;
+    background: url("http://images6.fanpop.com/image/photos/36100000/Christmas-image-christmas-36118465-1920-1200.jpg");
+    background-attachment:fixed ;
+}
+.custom-back-ground-03{
+    background-size: contain;
+    background: url("https://www.xmple.com/wallpaper/white-pink-gradient-linear-1920x1080-c2-ffffff-ffb6c1-a-240-f-14.svg");
+    background-attachment:fixed ;
+}
 .opacity {
     opacity: 0.8;
 }
@@ -101,11 +116,11 @@
 .carousel-indicators li {
     display: block;
     margin-bottom: 5px;
-    border: 10px solid #fe72ae;
+    border: 10px solid #5473e5;
     border-radius: 10px;
 }
 
 .carousel-indicators li.active {
-    border: 10px solid pink;
+    border: 10px solid #56d1ff;
 
 }

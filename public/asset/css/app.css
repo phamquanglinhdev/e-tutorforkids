@@ -5,10 +5,10 @@
     box-shadow: 0 40px 80px 0 rgb(0 0 0 / 10%);
 }
 .bg-origin{
-    background: #ff316b!important;
+    background: #5473e5 !important;
 }
 .btn-origin{
-    background: #ff316b!important;
+    background: #5473e5 !important;
     color: white!important;
 }
 /*.bg-pink{*/
@@ -22,8 +22,8 @@
     color:black!important;
 }
 .btn-pink{
-    background: #feeff3!important;
-    color: #fe72ae !important;
+    background: #fe1580 !important;
+    color: #f5f3fe !important;
 }
 .site-footer
 {
@@ -153,7 +153,7 @@
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
-    color:#fff;
+    color: #56d1ff;
     background-color:#29aafe
 }
 .social-icons.size-sm a
@@ -177,7 +177,7 @@
 }
 .social-icons a.dribbble:hover
 {
-    background-color:#ea4c89
+    background-color: #56d1ff
 }
 @media (max-width:767px)
 {
@@ -218,7 +218,7 @@
 }
 .text-nicelabel:checked + label
 {
-    background-color: #e91e63;
+    background-color: #5473e5;
     color: #fff;
     width: 100%;
     font-size: 1em;
