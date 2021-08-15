@@ -245,8 +245,8 @@
     </div>
 
 
-    <div class="custom-back-ground-03" style="height: 1px ;opacity: 0.3"></div>
-    <div class="container-fluid custom-back-ground-03">
+    <div class="custom-back-ground-01" style="height: 1px ;opacity: 0.3"></div>
+    <div class="container-fluid custom-back-ground-01">
         <div class="text-center text-uppercase p-5 h2 text-origin">CẢM NHẬN CỦA HỌC VIÊN</div>
         <div class="container pb-5">
             <div id="comment" class="carousel slide" data-ride="carousel">

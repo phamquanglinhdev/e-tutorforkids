@@ -180,11 +180,11 @@
 
                 <div class="col-xs-6 col-md-3">
                     <h6>Kết nối với BizEnglish</h6>
-                    <div class="fb-page" data-href="https://www.facebook.com/bizenglishforsuccess/" data-tabs=""
+                    <div class="fb-page" data-href="https://www.facebook.com/bizenglishforstudent/" data-tabs=""
                          data-width="" data-height="" data-small-header="true" data-adapt-container-width="false"
                          data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/bizenglishforsuccess/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/bizenglishforsuccess/">BIZ English - Dạy Nói và Viết Tiếng
+                        <blockquote cite="https://www.facebook.com/bizenglishforstudent/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/bizenglishforstudent/">BIZ English - Dạy Nói và Viết Tiếng
                                 Anh Online Cho Người Đi Làm</a></blockquote>
                     </div>
                     <div class="text-white mt-2"><i class="fas fa-phone"></i> Hotline</div>
@@ -253,7 +253,7 @@
 <!-- Your Chat Plugin code -->
 <div class="fb-customerchat"
      attribution="setup_tool"
-     page_id="400513617073068"
+     page_id="105441925087047"
      color="#00B0F0">
 </div>
 </body>
