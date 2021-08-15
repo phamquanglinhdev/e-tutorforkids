@@ -228,17 +228,16 @@
         <div class="text-origin ">
             <div class="container ">
                 <div class="row">
+                
                     <div class="col-12 pt-5 text-uppercase h2 text-center">Tìm kiếm giáo viên</div>
-                    <div class="col-12 h5 pb-2 text-center text-pink">Bạn có thể tìm kiếm giáo viên phù hợp nhất với
-                        bạn
-                        về khóa học, mức chi phí và thời gian học.
+                    <div class="col-12 h5 pb-2 text-center text-dark">Bạn có thể tìm cho bé giáo viên Việt Nam hoặc giáo viên nước ngoài phù hợp nhất về khóa học, mức chi phí và thới gian học.
                     </div>
-                    {{--                    <div class="p-5 d-flex w-100 align-items-center justify-content-center">--}}
-                    {{--                        <button class="btn btn-origin shadow"><a class="link-style-none text-white"--}}
-                    {{--                                                                 href="{{route('filter')}}"><i--}}
-                    {{--                                    class="fas fa-search"></i> Tìm kiếm ngay</a>--}}
-                    {{--                        </button>--}}
-                    {{--                    </div>--}}
+                     <div class="p-5 d-flex w-100 align-items-center justify-content-center">
+                   <button class="btn btn-origin shadow">
+                    <a class="link-style-none text-white"href="{{route('filter')}}">
+                       <i class="fas fa-search"></i> Tìm kiếm ngay</a>
+                                          </button>
+                                      </div>
                 </div>
             </div>
         </div>
@@ -248,7 +247,7 @@
     <div class="" style="height: 1px ;opacity: 0.3"></div>
     <div class="container-fluid ">
         <div class="text-center text-uppercase p-5 h2 text-origin">CẢM NHẬN CỦA HỌC VIÊN</div>
-        <div class="container pb-5">
+        <div class="container ">
             <div id="comment" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#comment" data-slide-to="0" class="active"></li>
@@ -341,7 +340,7 @@
                 </div>
             </div>
         @else
-            <div class="text-center text-origin">*Bạn cần đăng nhập để đánh giá</div>
+         <!--    <div class="text-center text-origin">*Bạn cần đăng nhập để đánh giá</div> -->
         @endif
     </div>
     {{--    <div class="container-fluid bg-origin text-white">--}}

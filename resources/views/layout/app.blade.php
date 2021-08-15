@@ -175,6 +175,7 @@
                         <li><a href="{{route('page',['type'=>'be_teacher'])}}">Trở thành giáo viên</a>
                         </li>
                         <li><a href="{{route('page',['type'=>'be_client'])}}">Trờ thành đối tác của BizEnglish</a></li>
+                        <li><a href="{{route('page',['type'=>'trade_teacher'])}}">Cung cấp giáo viên dạy Online</a></li>
                     </ul>
                 </div>
 
