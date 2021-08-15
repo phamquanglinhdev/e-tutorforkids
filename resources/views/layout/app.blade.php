@@ -233,9 +233,15 @@
     </script>
 </div>
 <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-   var chatbox = document.getElementById('fb-customer-chat');
+<!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "102407888706133");
       chatbox.setAttribute("attribution", "biz_inbox");
 
@@ -253,14 +259,6 @@
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-
-</script>
-
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat"
-     attribution="setup_tool"
-     page_id="105441925087047"
-     color="#00B0F0">
-</div>
+    </script>
 </body>
 </html>
