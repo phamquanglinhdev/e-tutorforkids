@@ -245,8 +245,8 @@
     </div>
 
 
-    <div class="custom-back-ground-01" style="height: 1px ;opacity: 0.3"></div>
-    <div class="container-fluid custom-back-ground-01">
+    <div class="" style="height: 1px ;opacity: 0.3"></div>
+    <div class="container-fluid ">
         <div class="text-center text-uppercase p-5 h2 text-origin">CẢM NHẬN CỦA HỌC VIÊN</div>
         <div class="container pb-5">
             <div id="comment" class="carousel slide" data-ride="carousel">
@@ -256,11 +256,11 @@
                     <li data-target="#comment" data-slide-to="2"></li>
                     <li data-target="#comment" data-slide-to="3"></li>
                 </ul>
-                <div class="carousel-inner">
+                <div class="carousel-inner bg-origin text-white shadow opacity-1">
                     @if(isset($comments))
                         @foreach($arrComment as $index => $comment)
                             <div class="carousel-item @if($index==0) active @endif">
-                                <div class="d-block w-75 m-auto  text-dark shadow  p-3 rounded">
+                                <div class="d-block w-75 m-auto  shadow  p-3 rounded">
                                     <div class="row align-items-center ">
                                         <div class="avatar col-md-3 m-0 ">
                                             <img
@@ -275,7 +275,7 @@
                                 </div>
                                 <div class="py-2"></div>
                                 @if(isset($arrComment[$index+1]))
-                                    <div class="d-block w-75 m-auto  text-dark shadow p-3 rounded">
+                                    <div class="d-block w-75 m-auto  shadow p-3 rounded">
                                         <div class="row align-items-center ">
                                             <div class="avatar col-md-3 m-0 ">
                                                 <img
@@ -289,7 +289,7 @@
                                         </div>
                                     </div>
                                 @else
-                                    <div class="d-block w-75 m-auto  text-dark shadow  p-3 rounded">
+                                    <div class="d-block w-75 m-auto shadow  p-3 rounded">
                                         <div class="row align-items-center ">
                                             <div class="avatar col-md-3 m-0 ">
                                                 <img
