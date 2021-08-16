@@ -16,8 +16,8 @@
                     <img class="d-block w-100"
                          src="{{asset('uploads/banner-1.jpg')}}"
                          alt="First slide">
-                         <div class="carousel-caption d-none mb-5 zoom-loop d-md-block">
-                            <a class="link-style-none "
+                         <div class="carousel-caption w-50 mx-auto d-none mb-5 zoom-loop d-md-block">
+                            <a class="link-style-none"
                             href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
                             <div class="btn-pink w-50 m-auto py-3 rounded font-weight-bold text-white text-center">
                             <i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và học thử miễn phí
