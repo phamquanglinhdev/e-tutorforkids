@@ -124,3 +124,11 @@
     border: 10px solid #56d1ff;
 
 }
+iframe{
+    width: 100%!important;
+    height: 300px!important;
+}
+.img-fix{
+    width: 143.88px!important;
+    height: 143.88px!important;
+}

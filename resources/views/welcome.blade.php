@@ -1,3 +1,6 @@
+@php
+        $config = \App\Models\Cofig::first();
+@endphp
 @extends('layout.app')
 @section('slider')
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -200,10 +203,7 @@
                             du học sinh tại Mỹ - Châu Âu.
                         </p>
                         <div class="YTB-Video">
-                            <iframe width="100%" height="300px" src="https://www.youtube.com/embed/T6W47w-ytB8"
-                                    title="YouTube video player"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                           {!!$config->f_video!!}
                         </div>
                     </div>
                 </div>
@@ -216,10 +216,7 @@
                             dạy tiếng Anh cho trẻ em trên toàn thế giới.
                         </p>
                         <div class="YTB-Video">
-                            <iframe width="100%" height="300px" src="https://www.youtube.com/embed/T6W47w-ytB8"
-                                    title="YouTube video player"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                            {!!$config->s_video!!}
                         </div>
                     </div>
                 </div>
@@ -263,8 +260,8 @@
                                     <div class="row align-items-center ">
                                         <div class="avatar col-md-3 m-0 ">
                                             <img
-                                                src="https://i.pinimg.com/originals/fa/02/02/fa0202572e8aa734cedb154c413a4846.jpg"
-                                                class="w-100 rounded-circle">
+                                                src="{{$arrComment[$index]['avatar']}}"
+                                                class="w-100 rounded-circle img-fix">
                                         </div>
                                         <div class="col-md-9">
                                             <h5>{{$arrComment[$index]['name']}}</h5>
@@ -278,8 +275,8 @@
                                         <div class="row align-items-center ">
                                             <div class="avatar col-md-3 m-0 ">
                                                 <img
-                                                    src="https://i.pinimg.com/originals/fa/02/02/fa0202572e8aa734cedb154c413a4846.jpg"
-                                                    class="w-100 rounded-circle">
+                                                    src="{{$arrComment[$index+1]['avatar']}}"
+                                                    class="w-100 rounded-circle img-fix">
                                             </div>
                                             <div class="col-md-9">
                                                 <h5>{{$arrComment[$index+1]['name']}}</h5>
@@ -292,8 +289,8 @@
                                         <div class="row align-items-center ">
                                             <div class="avatar col-md-3 m-0 ">
                                                 <img
-                                                    src="https://i.pinimg.com/originals/fa/02/02/fa0202572e8aa734cedb154c413a4846.jpg"
-                                                    class="w-100 rounded-circle">
+                                                    src="{{$arrComment[0]['avatar']}}"
+                                                    class="w-100 rounded-circle img-fix">
                                             </div>
                                             <div class="col-md-9">
                                                 <h5>{{$arrComment[0]['name']}}</h5>

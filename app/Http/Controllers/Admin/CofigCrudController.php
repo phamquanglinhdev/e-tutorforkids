@@ -65,6 +65,8 @@ class CofigCrudController extends CrudController
         CRUD::addField(['name' => 'host_phone', 'label'=>'HotLine']);
         CRUD::addField(['name' => 'description', 'label'=>'Giới thiệu ngắn (dùng để SEO)','type'=>'textarea']);
         CRUD::addField(['name' => 'keyword', 'label'=>'Từ khóa của trang (dùng để SEO,cách nhau bằng dấu phảy)','type'=>'text']);
+        CRUD::addField(['name' => 'f_video', 'label'=>'Mã nhúng video 01']);
+        CRUD::addField(['name' => 's_video', 'label'=>'Mã nhúng video 02']);
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:

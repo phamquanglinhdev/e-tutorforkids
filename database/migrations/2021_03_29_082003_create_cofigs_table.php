@@ -19,6 +19,8 @@ class CreateCofigsTable extends Migration
             $table->string('host_phone')->default('');
             $table->string('description')->default('');
             $table->string('keyword')->default('');
+            $table->longText('f_video')->default('');
+            $table->longText('s_video')->default('');
             $table->timestamps();
         });
     }
