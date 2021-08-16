@@ -30,8 +30,8 @@
     transition: 0.5s;
 }
 
-.zoom-loop {
-    animation: zoom-loops 0.5s ease infinite;
+.zoom-loop  {
+    animation: zoom-loops 3s ease infinite;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@
         transform: scale(1)
     }
     to {
-        transform: scale(1.2)
+        transform: scale(1.05)
     }
 }
 

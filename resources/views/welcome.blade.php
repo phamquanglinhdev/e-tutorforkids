@@ -12,11 +12,20 @@
         {{--        </ol>--}}
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true" class="link-style-none">
+                <!-- <a href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true" class="link-style-none"> -->
                     <img class="d-block w-100"
                          src="{{asset('uploads/banner-1.jpg')}}"
                          alt="First slide">
-                </a>
+                         <div class="carousel-caption d-none mb-5 zoom-loop d-md-block">
+                            <a class="link-style-none "
+                            href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
+                            <div class="btn-pink w-50 m-auto py-3 rounded font-weight-bold text-white text-center">
+                            <i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và học thử miễn phí
+                            </div>
+                            </a>
+                        </div>
+                    
+               
             </div>
             {{--            <div class="carousel-item">--}}
             {{--                <img class="d-block w-100"--}}
@@ -42,11 +51,19 @@
 @section('content')
     <link href="{{asset('asset/css/index.css')}}" rel="stylesheet">
     <div class="custom-back-ground-01">
-        <div class="p-5 bg-pink">
+        <div class="p-lg-5 p-2 bg-pink">
             <div class="container h2 text-center"><span class="text-origin text-uppercase">Biz </span>English <span
                     class="text-pink">For Kids</span></div>
             <div class="col-12 p-2 h4 text-center pb-2 pb-lg-0">Trường Học Tiếng Anh Trực Tuyến Cho Trẻ Em
             </div>
+        </div>
+        <div class="d-block zoom-loop d-md-none">
+                           <a class="link-style-none "
+                            href="https://docs.google.com/forms/d/1hAzf5BeeEF6ou6PTAcQHMOf1mmuo63MDlvgqGEBbC4Y/viewform?edit_requested=true">
+                            <div class="btn-pink w-50 m-auto rounded font-weight-bold text-white text-center">
+                            <small><i class="fas fa-hand-point-right"></i> Đăng ký tư vấn và học thử miễn phí</small>
+                            </div>
+                            </a>
         </div>
         <div class="">
             <div class="container">
