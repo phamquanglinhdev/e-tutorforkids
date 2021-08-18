@@ -3,9 +3,10 @@
 @php
     $widgets['before_content'][] = [
         'type'        => 'jumbotron',
-        'heading'     => 'Chào mừng '.backpack_user()->name,
-        'button_link' => 'logout',
-        'button_text' => 'Đăng xuất',
+        'heading'     => trans('backpack::base.welcome'),
+        'content'     => trans('backpack::base.use_sidebar'),
+        'button_link' => backpack_url('logout'),
+        'button_text' => trans('backpack::base.logout'),
     ];
 @endphp
 

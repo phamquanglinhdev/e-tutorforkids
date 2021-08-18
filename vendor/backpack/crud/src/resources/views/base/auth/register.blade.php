@@ -3,30 +3,17 @@
 @section('content')
     <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-4">
-            <h3 class="text-center mb-4">Đăng kí</h3>
+            <h3 class="text-center mb-4">{{ trans('backpack::base.register') }}</h3>
             <div class="card">
                 <div class="card-body">
                     <form class="col-md-12 p-t-10" role="form" method="POST" action="{{ route('backpack.auth.register') }}">
                         {!! csrf_field() !!}
 
                         <div class="form-group">
-                            <label class="control-label" for="name">Tên</label>
+                            <label class="control-label" for="name">{{ trans('backpack::base.name') }}</label>
 
                             <div>
                                 <input type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="name" value="{{ old('name') }}">
-
-                                @if ($errors->has('name'))
-                                    <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('name') }}</strong>
-                                    </span>
-                                @endif
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label" for="phone">Số điện thoại</label>
-
-                            <div>
-                                <input type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="phone" id="phone">
 
                                 @if ($errors->has('name'))
                                     <span class="invalid-feedback">
@@ -51,7 +38,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label" for="password">Mật khẩu</label>
+                            <label class="control-label" for="password">{{ trans('backpack::base.password') }}</label>
 
                             <div>
                                 <input type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" id="password">
@@ -65,7 +52,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="control-label" for="password_confirmation">Xác nhận mật khẩu</label>
+                            <label class="control-label" for="password_confirmation">{{ trans('backpack::base.confirm_password') }}</label>
 
                             <div>
                                 <input type="password" class="form-control{{ $errors->has('password_confirmation') ? ' is-invalid' : '' }}" name="password_confirmation" id="password_confirmation">
@@ -81,7 +68,7 @@
                         <div class="form-group">
                             <div>
                                 <button type="submit" class="btn btn-block btn-primary">
-                                   Đăng ký
+                                    {{ trans('backpack::base.register') }}
                                 </button>
                             </div>
                         </div>
@@ -89,9 +76,9 @@
                 </div>
             </div>
             @if (backpack_users_have_email() && config('backpack.base.setup_password_recovery_routes', true))
-                <div class="text-center"><a href="{{ route('backpack.auth.password.reset') }}">Quên mật khẩu</a></div>
+                <div class="text-center"><a href="{{ route('backpack.auth.password.reset') }}">{{ trans('backpack::base.forgot_your_password') }}</a></div>
             @endif
-            <div class="text-center"><a href="{{ route('backpack.auth.login') }}">Đăng nhập</a></div>
+            <div class="text-center"><a href="{{ route('backpack.auth.login') }}">{{ trans('backpack::base.login') }}</a></div>
         </div>
     </div>
 @endsection
