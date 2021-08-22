@@ -137,7 +137,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <h6>Đăng ký nhận thông tin mới nhất về BizEnglish</h6>
+                    <h6>Đăng ký nhận thông tin mới nhất về E-Tutor For Kids</h6>
                     <form action="#" method="post">
                         @csrf
                         <div class="input-group mb-3 py-3 pr-5">
@@ -151,7 +151,7 @@
                         </div>
                     </form>
                     <div class="">
-                        <h6>CÔNG TY TNHH BIZ ENGLISH</h6>
+                        <h6>CÔNG TY TNHH E-Tutor</h6>
                         <div><i class="fas fa-map-marked"></i> Trụ sở: Số 9, ngõ 908/36 Kim Giang, thành phố Hà Nội.
                         </div>
                         <div><i class="fas fa-building"></i>
@@ -166,7 +166,7 @@
                 </div>
 
                 <div class="col-xs-6 col-md-3">
-                    <h6>Thông tin BizEnglish</h6>
+                    <h6>Thông tin E-Tutor For Kids</h6>
                     <ul class="footer-links">
                         <li><a href="{{route('page',['type'=>'how_learn'])}}#study-regester">Cách thức học</a></li>
                         <li><a href="{{route('page',['type'=>'faq'])}}">Câu hỏi thường gặp</a></li>
@@ -174,24 +174,24 @@
                         </li>
                         <li><a href="{{route('page',['type'=>'be_teacher'])}}">Trở thành giáo viên</a>
                         </li>
-                        <li><a href="{{route('page',['type'=>'be_client'])}}">Trờ thành đối tác của BizEnglish</a></li>
+                        <li><a href="{{route('page',['type'=>'be_client'])}}">Trờ thành đối tác của E-Tutor For Kids</a></li>
                         <li><a href="{{route('page',['type'=>'trade_teacher'])}}">Cung cấp giáo viên dạy Online</a></li>
                     </ul>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
-                    <h6>Kết nối với BizEnglish</h6>
-                    <div class="fb-page" data-href="https://www.facebook.com/bizenglishforstudent/" data-tabs=""
+                    <h6>Kết nối với E-Tutor For Kids</h6>
+                    <div class="fb-page" data-href="https://www.facebook.com/E-Tutor For Kidsforstudent/" data-tabs=""
                          data-width="" data-height="" data-small-header="true" data-adapt-container-width="false"
                          data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/bizenglishforstudent/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/bizenglishforstudent/">BIZ English - Dạy Nói và Viết Tiếng
+                        <blockquote cite="https://www.facebook.com/E-Tutor For Kidsforstudent/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/E-Tutor For Kidsforstudent/">E-Tutor For Kids - Dạy Nói và Viết Tiếng
                                 Anh Online Cho Người Đi Làm</a></blockquote>
                     </div>
                     <div class="text-white mt-2"><i class="fas fa-phone"></i> Hotline</div>
                     <div class="text-white h5"> 0977281661</div>
                     <div class="text-white mt-2"><i class="fas fa-mail-bulk"></i> Email</div>
-                    <div class="text-white h5"> bizenglishforsuccess@gmail.com</div>
+                    <div class="text-white h5"> E-Tutor For Kidsforsuccess@gmail.com</div>
                 </div>
             </div>
             <hr>
@@ -200,13 +200,13 @@
             <div class="row">
                 <div class="col-md-8 col-sm-6 col-xs-12">
                     <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
-                        <a href="#">BizEnglish</a>.
+                        <a href="#">E-Tutor For Kids</a>.
                     </p>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="social-icons">
-                        <li><a class="bg-primary text-white" href="https://www.facebook.com/bizenglishforsuccess/"><i class="fab fa-facebook"></i></a></li>
+                        <li><a class="bg-primary text-white" href="https://www.facebook.com/E-Tutor For Kidsforsuccess/"><i class="fab fa-facebook"></i></a></li>
                         <li><a class="bg-danger text-white" href="https://www.youtube.com/channel/UCN5yXnMNbee92FQWR2Eq2nQ"><i class="fab fa-youtube"></i></a></li>
                         <li><a class="bg-primary" href="https://zalo.me/0977281661"><img src="https://cdn.freebiesupply.com/logos/large/2x/zalo-1-logo-black-and-white.png" class="w-100 rounded-circle"></a></li>
                     </ul>

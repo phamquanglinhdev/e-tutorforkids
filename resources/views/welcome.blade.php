@@ -24,8 +24,8 @@
                             </div>
                             </a>
                         </div>
-                    
-               
+
+
             </div>
             {{--            <div class="carousel-item">--}}
             {{--                <img class="d-block w-100"--}}
@@ -52,7 +52,7 @@
     <link href="{{asset('asset/css/index.css')}}" rel="stylesheet">
     <div class="custom-back-ground-01">
         <div class="p-lg-5 p-2 bg-pink">
-            <div class="container h2 text-center"><span class="text-origin text-uppercase">Biz </span>English <span
+            <div class="container h2 text-center"><span class="text-origin text-uppercase">Biz </span>E-Tutor <span
                     class="text-pink">For Kids</span></div>
             <div class="col-12 p-2 h4 text-center pb-2 pb-lg-0">Trường Học Tiếng Anh Trực Tuyến Cho Trẻ Em
             </div>
@@ -242,7 +242,7 @@
         <div class="text-origin ">
             <div class="container ">
                 <div class="row">
-                
+
                     <div class="col-12 pt-5 text-uppercase h2 text-center">Tìm kiếm giáo viên</div>
                     <div class="col-12 h5 pb-2 text-center text-dark">Bạn có thể tìm cho bé giáo viên Việt Nam hoặc giáo viên nước ngoài phù hợp nhất về khóa học, mức chi phí và thới gian học.
                     </div>
