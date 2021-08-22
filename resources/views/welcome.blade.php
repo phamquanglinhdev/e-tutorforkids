@@ -52,7 +52,7 @@
     <link href="{{asset('asset/css/index.css')}}" rel="stylesheet">
     <div class="custom-back-ground-01">
         <div class="p-lg-5 p-2 bg-pink">
-            <div class="container h2 text-center"><span class="text-origin text-uppercase">Biz </span>E-Tutor <span
+            <div class="container h2 text-center"><span class="text-origin text-uppercase">E-Tutor</span> <span
                     class="text-pink">For Kids</span></div>
             <div class="col-12 p-2 h4 text-center pb-2 pb-lg-0">Trường Học Tiếng Anh Trực Tuyến Cho Trẻ Em
             </div>

@@ -166,7 +166,7 @@
                 </div>
 
                 <div class="col-xs-6 col-md-3">
-                    <h6>Thông tin E-Tutor For Kids</h6>
+                    <h6>Thông tin E-Tutor</h6>
                     <ul class="footer-links">
                         <li><a href="{{route('page',['type'=>'how_learn'])}}#study-regester">Cách thức học</a></li>
                         <li><a href="{{route('page',['type'=>'faq'])}}">Câu hỏi thường gặp</a></li>
@@ -180,18 +180,18 @@
                 </div>
 
                 <div class="col-xs-6 col-md-3">
-                    <h6>Kết nối với E-Tutor For Kids</h6>
-                    <div class="fb-page" data-href="https://www.facebook.com/E-Tutor For Kidsforstudent/" data-tabs=""
+                    <h6>Kết nối với E-Tutor</h6>
+                    <div class="fb-page" data-href="https://www.facebook.com/bizenglishforstudent/" data-tabs=""
                          data-width="" data-height="" data-small-header="true" data-adapt-container-width="false"
                          data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/E-Tutor For Kidsforstudent/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/E-Tutor For Kidsforstudent/">E-Tutor For Kids - Dạy Nói và Viết Tiếng
+                        <blockquote cite="https://www.facebook.com/bizenglishforstudent/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/bizenglishforstudent/">E-Tutor For Kids - Dạy Nói và Viết Tiếng
                                 Anh Online Cho Người Đi Làm</a></blockquote>
                     </div>
                     <div class="text-white mt-2"><i class="fas fa-phone"></i> Hotline</div>
                     <div class="text-white h5"> 0977281661</div>
                     <div class="text-white mt-2"><i class="fas fa-mail-bulk"></i> Email</div>
-                    <div class="text-white h5"> E-Tutor For Kidsforsuccess@gmail.com</div>
+                    <div class="text-white h5"> e-tutorforsuccess@gmail.com</div>
                 </div>
             </div>
             <hr>
