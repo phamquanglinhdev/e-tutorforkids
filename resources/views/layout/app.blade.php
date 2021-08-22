@@ -40,7 +40,7 @@
                 <div class="d-flex flex-wrap align-items-center">
                     <div class=" col-md-4 p-1 mt-2 text-center text-lg-left">
                         <a href="{{route('index')}}">
-                            <img src="{{asset('img/logo.png')}}" class="w-50">
+                            <img src="{{asset('img/logo.png')}}" class="w-100">
                         </a>
                     </div>
                     <div class="col-md-4 mt-2">
